@@ -10,3 +10,7 @@ module "network" {
 module "compute" {
   source = "./Compute"
 }
+
+module "folder" {
+  source = "./Folder"
+}
