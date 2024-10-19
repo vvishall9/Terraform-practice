@@ -14,3 +14,7 @@ module "compute" {
 module "folder" {
   source = "./Folder"
 }
+
+module "project" {
+  source = "./Project"
+}
