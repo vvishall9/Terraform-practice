@@ -18,3 +18,7 @@ module "folder" {
 module "project" {
   source = "./Project"
 }
+
+module "HA_VPN" {
+  source = "./HA_VPN_GCP_TO_GCP"
+}
